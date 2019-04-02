@@ -1,0 +1,4 @@
+Tips:
+没有www,表示解析到http://feilonkji.xyz
+请求流程为：
+http://www.feilonkji.xyz -->http://mcgsoull.github.io -->http://feilonkji.xyz
