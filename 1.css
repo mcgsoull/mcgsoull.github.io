@@ -1,0 +1,91 @@
+/* CSS Document */
+body{
+	background-size: 1600px 1730px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:70px;
+	padding-right:70px;
+    }
+.tu{height:10%;width:100%}
+.aa{font-family:"FZShuTi",方正舒体}
+.shouye{
+	  font-family:"STCaiyun",华文彩云;
+	  width:100%;
+	  height:20%;
+	  float:left;
+	  color:#082AD3;
+     }
+.shouye a:link{color:#082AD3;}
+        a:visited{color:#D90ADE;}
+        a:active{color:#E8C508;}
+.genduo{
+	  background-color:#acdafc;
+	  color:#2746DF;
+	  padding:1px;
+	  font-size:17px;
+	  border:none; 
+	  cursor:pointer;
+      height:20%;
+	  font-family:"STCaiyun",华文彩云;
+      }
+.cai{position:relative;display:inline-block;}
+.cai-1{
+	   display:none;
+       position:absolute;
+	   background-corlor:#acdafc;
+	   min-width:8px;
+	   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       }
+.cai-1 a{
+	   corlor:#acdafc;
+	   padding:8px 8px;
+	   text-decoration:none;
+	   display:block;
+       }
+.cai-1 a:hover{background-color:#f1f1f1}
+.cai:hover .cai-1{display:inline;}
+.cai:hover .genduo{background-color:#90709D;}
+.shennue p{
+	    overflow:hidden;
+	    text-overflow:ellipsis;
+	    white-space:nowrap;
+        }
+.dierban{
+	    font-family:"STCaiyun",华文彩云;
+	    text-align:center;
+	    font-size:150%;
+	    color:#082AD3;
+        }
+.tubiao{
+	    width:50px;
+	    heigth:50px;
+        }
+.donghua{
+	   width:100%;
+	   height:60px;
+	   background-color:#A20F11;
+	   animation:donghuax 42s;/*调用动画：动画名 动画时间*/
+	   -ms-animation:donghuax 42s;
+	    animation-iteration-count:infinite;/*循环播放动画*/
+       }
+@keyframes donghuax{
+	  0%  {background:red;}
+	  16% {background:#13B50D;}
+	  32% {background:#145485;}
+	  48% {background:#F97307;}
+	  64% {background:#C2BD8B;}
+	  78% {background:#5C0354;}
+	  100% {background:#D4D5BD;}
+}
+@keyframes jiqiren{
+	  0%  {transform:translate(0px,0px);}
+	  100%{transform:translate(800px,0px);}
+}
+.jiqi     {
+	      animation:jiqiren 7s;
+	      -ms-animation:jiqiren 7s;  
+	      animation-iteration-count:infinite;/*循环播放*/
+	      transition:linear;/*匀速播放*/
+	      animation-direction:alternate;/*倒叙播放*/
+          }
+.ziti{font-size:180%;}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#7AC9BC;}
+.dianhua{
+	    font-size:140%;
+        color:#0124B3; 
+        }
+.anniu{
+	    background-color:#7AC9BC;
+	    height:40px;
+	    width:280px;
+	    cursor:pointer;
+       }
